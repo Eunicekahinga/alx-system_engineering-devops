@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lamp1 | sort -k1,1n -k2
+ls -lamp | sort -k1,1n -k2

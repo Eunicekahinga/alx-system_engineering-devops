@@ -1,0 +1,3 @@
+#!/bin/bas
+cut -f 1 webserver_logs.tsv | sort | uniq -c | sort -rn | head -n 11
+

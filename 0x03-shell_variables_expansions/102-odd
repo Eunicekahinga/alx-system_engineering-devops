@@ -1,2 +1,2 @@
 #!/bin/bash
-cat - | cut -d, -f1 | paste -
+cat - | cut -d, -f1 | paste - | grep '^[0-9]'
